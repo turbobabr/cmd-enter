@@ -1,5 +1,4 @@
 // Allows to use command+enter shortcut to apply changes to a text layer that is being edited. (command ↩)
-
 function isTextEditingInProgress() {
     for(var i=0;i<selection.count();i++) {
         var layer=selection.objectAtIndex(i);
