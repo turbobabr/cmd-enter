@@ -1,11 +1,9 @@
 Cmd-Enter
 =========
 
-(Work in progress....)
+A tiny Sketch 3 plugin that allows to use `Cmd` + `Enter` shortcut to apply changes to a text layer that is being edited.
 
-A tiny Sketch 3 plugin that allows to use cmd-enter shortcut to apply changes to a text layer that is being edited.
-
-**The Problem**
+#### The Problem
 
 In Sketch, there are two ways one can finish text layer editing process:
 
@@ -18,18 +16,18 @@ However, both methods have their drawbacks:
 2. Whenever I click outside of the text layer bounds - Sketch exits editing mode and deselects the layer, but usually I want to play with it for a while (e.g, change font size, color, etc).
 
 
-**The Solution**
+#### The Solution
 
-The standard pattern for applying changes in a multi-line text fields is using `cmd` + `enter` shortcut, but Sketch doesn't support it. Whenever you hit `cmd` + `enter` Sketch produces a loud "bump" sound instead of expected "Save it!" behaviour.
+The standard pattern for applying changes in a multi-line text fields is using `Cmd` + `Enter` shortcut, but Sketch doesn't support it. Whenever you hit `Cmd` + `Enter` Sketch produces a loud "bump" sound instead of expected "Save it!" behaviour.
 
-Recently I've found out a way to emulate the desired behaviour using custom scripting. Wrote a plugin that is bound to `cmd` + `enter` shortcut and on launch it simulates 'Esc' key press. So the problem is solved: I have a sense that I apply changes and Sketch keeps my text layer selected! Probably I'm the only person who's suffering without `cmd` + `enter` feature, but anyway I decided to share the plugin with the community.
+Recently I've found out a way to emulate the desired behaviour using custom scripting. Wrote a plugin that is bound to `Cmd` + `Enter` shortcut and on launch it simulates 'Esc' key press. So the problem is solved: I have a sense that I apply changes and Sketch keeps my text layer selected! Probably I'm the only person who's suffering without `cmd` + `enter` feature, but anyway I decided to share the plugin with the community.
 
 ### Installation and Usage
 
 1. Download [cmd-enter.sketchplugin](https://github.com/turbobabr/cmd-enter/raw/master/cmd-enter.sketchplugin) file.
 2. Double-Click it to install in plugins folder.
 
-Use `cmd` + `enter` shortcut during text layer editing process!
+Use combination of `Cmd` + `Enter` keys during text layer editing process!
 
 ### License
 
