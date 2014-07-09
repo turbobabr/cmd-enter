@@ -24,7 +24,7 @@ Recently I've found out a way to emulate the desired behaviour using custom scri
 
 ### Installation and Usage
 
-1. Download [cmd-enter.sketchplugin] file](https://github.com/turbobabr/cmd-enter/raw/master/distr/cmd-enter.sketchplugin).
+1. Download [cmd-enter.sketchplugin](https://github.com/turbobabr/cmd-enter/raw/master/distr/cmd-enter.sketchplugin) file.
 2. Double-Click it to install in plugins folder.
 
 Use `cmd` + `enter` shortcut during text layer editing process!
