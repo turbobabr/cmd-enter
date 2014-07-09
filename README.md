@@ -8,10 +8,12 @@ A tiny Sketch 3 plugin that allows to use cmd-enter shortcut to apply changes to
 **The Problem**
 
 In Sketch, there are two ways one can finish text layer editing process:
+
 1. Hit `Esc` key on a keyboard.
 2. Mouse click outside of the text layer being edited.
 
 However, both methods have their drawbacks:
+
 1. When I hit `Esc` key it does what I want - Sketch exits editing mode and keeps the layer selected, but here I have a deep sense that something is being CANCELLED. Also `Esc` key is located pretty far away from the "hot zone".
 2. Whenever I click outside of the text layer bounds - Sketch exits editing mode and deselects the layer, but usually I want to play with it for a while (e.g, change font size, color, etc).
 
