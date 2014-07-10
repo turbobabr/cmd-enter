@@ -3,6 +3,11 @@ Cmd-Enter
 
 A tiny Sketch 3 plugin that allows to use `Cmd` + `Enter` shortcut to apply changes to a text layer that is being edited.
 
+Here is a short screencast:
+
+<a href="http://youtu.be/GllIqsxmP1o" target="_blank"><img src="http://turbobabr.github.io/cmd-enter/images/play-cmd-enter-screencast.png" alt="Sketch 3 Cmd+Enter Plugin Screencast"/></a>
+
+
 #### The Problem
 
 In Sketch, there are two ways one can finish text layer editing process:
