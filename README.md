@@ -20,7 +20,7 @@ However, both methods have their drawbacks:
 
 The standard pattern for applying changes in a multi-line text fields is using `Cmd` + `Enter` shortcut, but Sketch doesn't support it. Whenever you hit `Cmd` + `Enter` Sketch produces a loud "bump" sound instead of expected "Save it!" behaviour.
 
-Recently I've found out a way to emulate the desired behaviour using custom scripting. Wrote a plugin that is bound to `Cmd` + `Enter` shortcut and on launch it simulates 'Esc' key press. So the problem is solved: I have a sense that I apply changes and Sketch keeps my text layer selected! Probably I'm the only person who's suffering without `cmd` + `enter` feature, but anyway I decided to share the plugin with the community.
+Recently I've found out a way to emulate the desired behaviour using custom scripting. Wrote a plugin that is bound to `Cmd` + `Enter` shortcut and on launch it simulates 'Esc' key press. So the problem is solved: I have a sense that I apply changes and Sketch keeps my text layer selected! Probably I'm the only person who's suffering without `Cmd` + `Enter` feature, but anyway I decided to share the plugin with the community.
 
 ### Installation and Usage
 
