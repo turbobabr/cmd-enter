@@ -1,6 +1,8 @@
 Cmd-Enter
 =========
 
+> *Important Note: * This plugin is retired since [Sketch 3.1](http://bohemiancoding.com/sketch/support/updates/) now has native support of `Cmd+Enter` shortcut.
+
 A tiny Sketch 3 plugin that allows to use `Cmd` + `Enter` shortcut to apply changes to a text layer that is being edited.
 
 Here is a short screencast:
